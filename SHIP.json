@@ -1,0 +1,31 @@
+{
+  "slug": "solscanecho",
+  "title": "Solscan Echo",
+  "repoUrl": "https://github.com/MichealGaryScottDev/solscanecho",
+  "deployUrl": "https://solscanecho.loomship.xyz",
+  "niceUrl": "https://solscanecho.loomship.xyz",
+  "siteDir": "C:\\Users\\noahw\\Downloads\\CodingProjects\\OrynthAutoDev\\projects\\solscanecho",
+  "listing": {
+    "productName": "Solscan Echo",
+    "oneLinePitch": "Wallet forensics with emotional timeline",
+    "tryItUrl": "https://solscanecho.loomship.xyz",
+    "whatMakesItSpecial": "Solscan Echo shows your Solana wallet's token holdings, PnL, and recent trades. The emotional timeline maps your trading psychology with color-coded sentiment waves: green peaks for win streaks, red troughs for losses, blue plateaus for hodl calm. You also get behavioral stats like win rate, average hold time, and an impulsive trade score. No wallet connection needed, just paste any address.",
+    "logoPath": "listing/logo.svg",
+    "screenshotPaths": [
+      "listing\\screenshots\\01-home.png",
+      "listing\\screenshots\\02-wallet-7xkxtg2cw87d97txjsdpbd5jbkhetqa83.png"
+    ],
+    "categories": [
+      "Blockchain & Crypto",
+      "Data Science & Analytics",
+      "Developer Tools"
+    ],
+    "firstComment": "Hey Orynth, I built this because I kept revenge-trading after red days and wanted to see my emotional patterns on-chain. The sentiment wave algorithm reads transaction clusters and calculates hodl patience vs panic sells. Would love feedback on the behavioral metrics, are they actually useful or just noise?"
+  },
+  "orynthSubmitted": false,
+  "orynthVerified": false,
+  "shippedAt": "2026-07-30T21:46:53.748Z",
+  "customIdea": true,
+  "orynthSkipped": false,
+  "assignedDomain": "solscanecho.loomship.xyz"
+}
