@@ -1,0 +1,32 @@
+{
+  "slug": "solscanecho",
+  "title": "Solscan Echo",
+  "tagline": "Wallet forensics with emotional timeline",
+  "description": "Paste any Solana wallet address to see token holdings, PnL, and recent trades—plus a unique emotional timeline that visualizes your trading psychology through color-coded sentiment waves based on win/loss streaks, volatility, and hodl patience.",
+  "niche": "Solana traders and investors who want both financial analytics and behavioral insights into their trading patterns without connecting a wallet.",
+  "pages": [
+    "/",
+    "/wallet/[address]"
+  ],
+  "visualDirection": "Dark wallet dashboard with a continuous horizontal timeline ribbon above the token list. Timeline uses gradient waves (green peaks for win streaks, red valleys for losses, blue calm for hodl periods). Sheet-style cards for holdings with inline sparklines. Monospace fonts for addresses and numbers, Inter for labels. Minimal chrome, data-dense layout.",
+  "colorPalette": {
+    "bg": "#141414",
+    "fg": "#e4e4e4",
+    "accent": "#81a1c1",
+    "muted": "#8a8a8a"
+  },
+  "fontPairing": {
+    "display": "Inter",
+    "body": "Inter"
+  },
+  "features": [
+    "Emotional Timeline: A unique wave visualization mapping trading sentiment over time—green peaks for consecutive wins, red troughs for loss streaks, blue plateaus for hodl calm, calculated from transaction history patterns.",
+    "Live Token Holdings: Display all SPL tokens with current balance, USD value (via public APIs like Jupiter price aggregator or CoinGecko free tier), and 24h change.",
+    "PnL Calculator: Estimate profit/loss per token by comparing first buy price (from on-chain history) to current market price, showing realized and unrealized gains.",
+    "Recent Trades Feed: Last 20 transactions with type (swap, transfer, stake), token symbols, amounts, timestamp, and signature link to Solscan explorer.",
+    "Behavioral Metrics: Show stats like average hold time, win rate percentage, most volatile token, longest hodl streak, and impulsive trade score (frequent buys within 1 hour).",
+    "Address Bookmarking: Save wallet addresses to localStorage for quick re-checks (no login required)."
+  ],
+  "scopeNotes": "No wallet connection (paste-only). No historical price charts beyond sparklines. No DEX integration or live trading. PnL is estimated from on-chain data and public price feeds, not guaranteed accurate. Free public RPC (Solana mainnet-beta via public endpoints) and free price APIs only (Jupiter aggregator public endpoint, CoinGecko free tier). No Solana Pay, no staking UI, no NFT gallery (focus purely on fungible tokens and trades). Emotional timeline algorithm is heuristic (based on transaction patterns, not actual sentiment analysis).",
+  "usesAi": false
+}

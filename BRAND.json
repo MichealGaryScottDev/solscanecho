@@ -1,0 +1,16 @@
+{
+  "title": "Solscan Echo",
+  "tagline": "Wallet forensics with emotional timeline",
+  "description": "Paste any Solana wallet address to see token holdings, PnL, and recent trades—plus a unique emotional timeline that visualizes your trading psychology through color-coded sentiment waves based on win/loss streaks, volatility, and hodl patience.",
+  "logoMarkDescription": "A continuous sine wave curve connecting two anchor dots with two vertical tick marks extending from wave peaks, representing an emotional timeline with data points and sentiment fluctuations.",
+  "palette": {
+    "bg": "#141414",
+    "fg": "#e4e4e4",
+    "accent": "#81a1c1",
+    "muted": "#8a8a8a"
+  },
+  "fonts": {
+    "display": "Inter",
+    "body": "Inter"
+  }
+}
